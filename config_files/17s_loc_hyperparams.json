@@ -1,0 +1,26 @@
+{
+    "rf": {
+        "n_estimators": 1000,
+        "max_depth": 39,
+        "min_samples_split": 4,
+        "min_samples_leaf": 3,
+        "max_features": 0.2,
+        "random_state": 1},
+    "mlp": {
+        "epochs": 2,
+        "checkpoint_metric": "val_auc",
+        "hidden_sizes": [256, 32],
+        "learning_rate": 0.0001,
+        "drop_prob": 0.1,
+        "reg": 0.0},
+    "unet": {
+        "epochs": 2,
+        "checkpoint_metric": "val_auc",
+        "f": 64,
+        "k": 16,
+        "l": 2,
+        "fc_hidden_sizes": [64],
+        "learning_rate": 5e-5,
+        "drop_prob": 0.25,
+        "reg": 100}
+}

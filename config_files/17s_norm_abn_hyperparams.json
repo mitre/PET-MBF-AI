@@ -1,0 +1,30 @@
+{
+    "svm": {
+        "kernel": "rbf",
+        "C": 1428.284902,
+        "gamma": 0.001496},
+    "rf": {
+        "n_estimators": 300,
+        "max_depth": 31,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.67,
+        "random_state": 0},
+    "mlp": {
+        "epochs": 2,
+        "checkpoint_metric": "val_auc",
+        "hidden_sizes": [256, 288, 40],
+        "learning_rate": 0.001,
+        "drop_prob": 0.0,
+        "reg": 0.0},
+    "unet": {
+        "epochs": 2,
+        "checkpoint_metric": "val_auc",
+        "f": 32,
+        "k": 8,
+        "l": 2,
+        "fc_hidden_sizes": [32, 64],
+        "learning_rate": 7e-05,
+        "drop_prob": 0.25,
+        "reg": 500} 
+}
