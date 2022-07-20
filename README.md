@@ -398,7 +398,7 @@ Example:
         --final
 
 # Public Release
-©2022 The MITRE Corporation 
+©2022 The MITRE Corporation and The Ottawa Heart Institute
 Approved for Public Release; Distribution Unlimited. 
 Public Release Case Number 22-1848
 
